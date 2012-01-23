@@ -32,6 +32,9 @@ exports.initialize = function(irc) {
             return;
         }
         chan = chans[chan];
+        if(!chan){
+          return;
+        }
         for(var i=0; i<nicks.length; i++) {
             user = allusers[nicks[i]];
             if (!user) {

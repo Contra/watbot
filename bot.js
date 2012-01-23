@@ -14,14 +14,14 @@ var sys = require('util'),
 var config = {
 	host:		'irc.freenode.com',
 	port:		6667,
-	nick:		'NodeBot',
-	username:	'NodeBot',
-	realname:	'Powered by Michael Owens',
-	channels:	['#nodejs'],
+	nick:		'jQueryDev',
+	username:	'jQueryDev',
+	realname:	'Contra',
+	channels:	['#Node.js', '#javascript'],
 	command:	'.',
-	debug:		false,
+	debug:		true,
 
-	plugins:	['global', 'reload', 'gezien', 'textfilter']
+	plugins:	['global', 'reload', 'gezien', 'textfilter', 'wat']
 };
 
 /**
